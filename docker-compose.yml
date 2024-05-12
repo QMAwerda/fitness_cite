@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  fitness:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/postgres
+    networks: [ "micro" ]
+
+  postgres:
+    image: bitnami/postgresql
+    container_name: postgres
+    volumes:
+      - "./migrations:/docker-entrypoint-initdb.d"
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "20001:5432"
+    restart: unless-stopped
+    networks: [ "micro" ]
+
+networks:
+  micro:
+    name: micro

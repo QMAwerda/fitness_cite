@@ -1,0 +1,17 @@
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/services/ProductService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/models/User.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/FitnessApplication.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/models/Product.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/controllers/UserController.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/SpringSecurityConfig.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/services/TypeService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/models/Basket.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/repositories/ITypeRepository.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/services/UserService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/services/CriteriaService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/services/EmailService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/repositories/IBasketRepository.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/services/BasketService.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/repositories/IProductRepository.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/models/Type.java
+/home/dusty/JavaProjects/WebApplications/kursach_java/src/main/java/com/mirea/fitness/repositories/IUserRepository.java
